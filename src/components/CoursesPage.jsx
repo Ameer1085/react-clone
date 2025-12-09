@@ -1,9 +1,6 @@
+
 import React, { useState } from "react";
-import { ChooseSection } from "./ChooseSection";
-import { SearchFilterRow } from "./SearchFilterRow";
-import { FilterGrid } from "./FilterGrid";
-import { CourseCard } from "./CourseCard";
-import "./css/Courses.css";
+import "../css/Courses.css";
 
 function CoursesPage() {
     const [showFilters, setShowFilters] = useState(false);
@@ -11,7 +8,7 @@ function CoursesPage() {
 
     const courses = [
         {
-            img: "./FullStack.jpg",
+            img: "../../public/images/FullStack.jpg",
             title: "Full Stack Development",
             desc: "Master both frontend and backend development with modern technologies including React, Node.js, and databases.",
             duration: "3 months",
@@ -21,7 +18,7 @@ function CoursesPage() {
             oldPrice: "₦90,000",
         },
         {
-            img: "./REACT.jpg",
+            img: "../../public/images/REACT.jpg",
             title: "React Development Mastery",
             desc: "Build modern, interactive web applications with React, Redux, and the latest frontend technologies.",
             duration: "3 months",
@@ -31,7 +28,7 @@ function CoursesPage() {
             oldPrice: "₦60,000",
         },
         {
-            img: "./Python.jpg",
+            img: "../../public/images/Python.jpg",
             title: "Python Programming & Data Science",
             desc: "Learn Python programming from basics to advanced concepts including data science, web development, and automation.",
             duration: "2 months",
@@ -41,7 +38,7 @@ function CoursesPage() {
             oldPrice: "₦40,000",
         },
         {
-            img: "./Mobile.jpg",
+            img: "../../public/images/Mobile.jpg",
             title: "Flutter Mobile App Development",
             desc: "Create beautiful, native mobile applications for iOS and Android using Google's Flutter framework.",
             duration: "3 months",
@@ -51,7 +48,7 @@ function CoursesPage() {
             oldPrice: "₦60,000",
         },
         {
-            img: "./CyberSecurity.jpg",
+            img: "../../public/images/CyberSecurity.jpg",
             title: "Cybersecurity Fundamentals",
             desc: "Learn essential cybersecurity concepts, ethical hacking, and how to protect systems from cyber threats.",
             duration: "3 months",
@@ -61,7 +58,7 @@ function CoursesPage() {
             oldPrice: "₦90,000",
         },
         {
-            img: "./ReactNative.jpg",
+            img: "../../public/images/ReactNative.jpg",
             title: "React Native Mobile Development",
             desc: "Build native mobile apps for iOS and Android using React Native and JavaScript.",
             duration: "3 months",
